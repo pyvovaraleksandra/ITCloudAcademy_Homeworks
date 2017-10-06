@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Задача 3</title>
+</head>
+<body>
+	<h1>Запись на курсы</h1>
+	<hr>
+
+	<form action="index.php" method="POST">
+		<label for="name">Имя:</label> <br>
+		<input type="text" id="name"> <br>
+		
+		<p>Язык программирования: </p>
+			<input type="radio" name="lang" value="C++">C++ <br>
+			<input type="radio" name="lang" value="PHP">PHP <br>
+			<input type="radio" name="lang" velue="Python">Python <br>
+		<br>
+		
+		<label for="more">Дополнительная информация:</label> <br>
+		<textarea id="more" cols="30" rows="5"> </textarea> <br>
+
+		<label for="pass">Секретное слово:</label> <br>
+		<input type="password" id="pass"> <br> <br>
+
+		<input type="submit" value="Отправить"> <input type="reset" value="Очистить"> 
+	</form>
+	<hr>
+	
+</body>
+</html>
