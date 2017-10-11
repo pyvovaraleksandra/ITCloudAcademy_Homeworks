@@ -1,0 +1,22 @@
+.first {
+	color: red;
+	text-decoration: underline;
+}
+.second {
+	font-weight: bold;
+	letter-spacing: 0.2px;
+}
+.greenText {
+	color: #008000;
+	font-size: 14px;
+	line-height: 18px;
+}
+.cat {
+	text-align: right;
+}
+.painting {
+	text-align: center;
+}
+.painting > img { 
+	height: 300px;
+}
