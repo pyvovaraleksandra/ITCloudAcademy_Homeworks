@@ -6,13 +6,16 @@ p {
 	text-decoration: underline;
 }
 .second {
-	font-weight: bold;
-	letter-spacing: 0.2px;
+	font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    line-height: 1.2;
 }
 .greenText {
 	color: #008000;
 	font-size: 14px;
 	line-height: 18px;
+	letter-spacing: -0.7px;
 }
 .cat {
 	text-align: right;
