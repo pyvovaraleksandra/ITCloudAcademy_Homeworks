@@ -1,0 +1,9 @@
+body {
+	background: url("../img/bg.png");
+}
+div {
+	width: 320px;
+	height: 220px;
+	background: url("../img/block.png");
+	margin: 50px auto;
+}

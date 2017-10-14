@@ -1,0 +1,35 @@
+body {
+	margin: 0 0;
+	background-color: #1f1f1f;
+}
+h1 {
+    margin-top: 0;
+    padding-left: 20px;
+	background-color: #e18726;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 23px;
+}
+p, div {
+	color: #fff;
+}
+div {
+	padding-left: 20px;
+	line-height: 1.3;
+	font-size: 17px;
+    letter-spacing: 0.3px;
+}
+p {
+	margin: 0 0;
+}
+.clasName {
+	color: #debb9f;
+}
+.attr {
+	color: #6d5477;
+	margin-left: 22px;
+}
+.value {
+	color: #93585a;
+	margin-left: 7px;
+}
