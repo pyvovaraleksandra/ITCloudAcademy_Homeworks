@@ -1,0 +1,27 @@
+div {
+	width: 256px;
+	height: 256px;
+	background-image: url("../img/Sprite.png");
+}
+
+.insta {
+	background-position: -256px 0;
+}
+.email {
+	background-position: 256px 0;
+}
+.youtube {
+	background-position: 512px 0;
+}
+.twitterColor {
+    background-position: 0 256px;
+}
+.instaColor {
+	background-position: -256px 256px;
+}
+.emailColor {
+	background-position: 256px 256px;
+}
+.youtubeColor {
+	background-position: 512px 256px;
+}
