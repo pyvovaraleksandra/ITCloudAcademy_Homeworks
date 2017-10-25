@@ -1,0 +1,44 @@
+.pagination {
+    height: 90px;
+    background-color: #f1f1f1;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+ul {
+	list-style-type: none;
+	width: 686px;
+    height: 36px;
+    padding: 0;
+    margin: 27px auto;
+}
+li {
+	float: left;
+    padding: 8px 16px;
+    background-color: #324a5d;
+    border: 1px solid #324a5d;
+    font-family: sans-serif;
+    color: #fff;
+    margin-left: 9px;
+}
+li.active {
+	background-color: #1985b9;
+}
+li.other {
+	background-color: transparent;
+	color: #324a5d;
+	font-weight: bold;
+	border: none;
+}
+li:hover {
+	cursor: pointer;
+	background-color: #486a86;
+}
+li.active:hover {
+	background-color: #1985b9;
+	cursor: default;	
+}
+li.other:hover {
+	background-color: transparent;
+	cursor: default;
+}
