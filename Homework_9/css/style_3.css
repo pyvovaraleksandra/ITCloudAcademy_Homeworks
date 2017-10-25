@@ -1,0 +1,23 @@
+.wrapper {
+	width: 240px;
+	height: 240px;
+	background-color: #e51875;
+}
+.circle {
+	width: 144px;
+	height: 144px;
+	border-radius: 100px;
+	background-color: #fab250;
+	position: relative;
+	top: 48px;
+	left: 48px;
+}
+.plus {
+	font-size: 68px;
+    font-weight: bold;
+	color: white;
+	margin: 0 0;
+	position: absolute;
+    top: 33px;
+    left: 52px;
+}
