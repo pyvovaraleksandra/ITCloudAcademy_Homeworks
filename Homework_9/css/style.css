@@ -1,0 +1,41 @@
+ul {
+	list-style-type: none;
+}
+li {
+	float: left;
+	padding: 11px 35px;
+	font-family: sans-serif;
+	color: #fff;
+	letter-spacing: 0.6px;
+}
+li:hover {
+	cursor: pointer;
+}
+.tab-name {
+	height: 40px;
+    background-color: #444444;
+}
+.home {
+	background-color: #ff8500;
+	height: 20px;
+}
+.math {
+	background-color: #e02826;
+}
+.physics {
+	background-color: #a202ff;
+}
+.chemistry {
+	background-color: #5aa4e1;
+}
+.history {
+	background-color: #42cf5f;
+}
+.tab-content {
+	margin-top: 2px;
+}
+.tab-content > div {
+	width: 100%;
+	height: 10px;
+	background-color: #ff8500;
+}
