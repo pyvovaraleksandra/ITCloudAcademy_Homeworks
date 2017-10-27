@@ -1,6 +1,5 @@
 .popup {
 	width: 940px;
-	/*height: 448px;*/
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     border-radius: 20px;
     overflow: hidden;
@@ -8,23 +7,20 @@
 
 /*LEFT BLOCK*/
 .left {
-/*	display: flex;
-    align-items: center;*/
 	width: 400px;
-	/*height: 100%;*/
 	float: left;
 	background: url("../img/left-bg.jpg");
     position: relative;
 }
-.left > div {
+.left > div.center-block {
 	width: 275px;
-    height: 270px;
     border-radius: 7px;
     background-color: #fff;
-    margin: 95px auto;
+    margin: 98px auto;
+    padding: 18px 0;
 }
 .left > div p.months {
-	margin-top: 27px;
+	margin-top: 4px;
 	font-family: GothamPB;
 	font-size: 17px;
     letter-spacing: -0.6px;
@@ -34,20 +30,19 @@
 }
 .left > div p.price {
     margin-top: 37px;
-    margin-bottom: 0;
 	font-family: GothamPL;
     font-size: 51px;
 	color: #9aaf4e;
 	text-align: center;
 }
 .left > div p.old-price {
-    margin-top: 4px;
 	font-family: GothamP;
 	font-size: 15px;
     letter-spacing: -0.6px;
-    /*margin-left: -5px;*/
 	color: #8a8e99;
 	text-align: center;
+	margin-top: -48px;
+    margin-bottom: 90px;
 }
 .left .ribbon {
 	width: 288px;
@@ -60,7 +55,7 @@
     border-radius: 5px 5px 0 0;
     position: absolute;
     left: 57px;
-    top: 205px;
+    top: 300px;
 }
 .left .ribbon::before, .left > .ribbon::after {
     content: '';
@@ -84,15 +79,13 @@
 	height: 59px;
 	background: url(../img/wreath.png);
 	position: absolute;
-    top: -24px;
+    top: 70px;
     left: 293px;
 }
-
 
 /*RIGHT BLOCK*/
 .right {
 	width: 540px;
-	/*height: 100%;*/
 	float: left;
 	background-color: #fff;
 }
