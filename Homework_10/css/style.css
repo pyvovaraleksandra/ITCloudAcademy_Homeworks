@@ -1,0 +1,248 @@
+.popup {
+	width: 940px;
+	height: 448px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+
+/*LEFT BLOCK*/
+.left {
+	display: flex;
+    align-items: center;
+	width: 400px;
+	height: 100%;
+	float: left;
+	background: url("../img/left-bg.jpg");
+    position: relative;
+    border-radius: 20px 0 0 20px;
+}
+.left > div {
+	width: 275px;
+    height: 270px;
+    border-radius: 7px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.left > div p.months {
+	margin-top: 27px;
+	font-family: GothamPB;
+	font-size: 17px;
+    letter-spacing: -0.6px;
+	color: #575b66;
+	text-transform: uppercase;
+	text-align: center;
+}
+.left > div p.price {
+    margin-top: 37px;
+    margin-bottom: 0;
+	font-family: GothamPL;
+    font-size: 51px;
+	color: #9aaf4e;
+	text-align: center;
+}
+.left > div p.old-price {
+    margin-top: 4px;
+	font-family: GothamP;
+	font-size: 15px;
+    letter-spacing: -0.6px;
+    /*margin-left: -5px;*/
+	color: #8a8e99;
+	text-align: center;
+}
+.left .ribbon {
+	width: 288px;
+    height: 49px;
+    background-color: #fac746;
+    color: #96782b;
+    font-family: GothamPM;
+    text-align: center;
+    line-height: 48px;
+    border-radius: 5px 5px 0 0;
+    position: absolute;
+    left: 57px;
+    top: 301px;
+}
+.left .ribbon::before, .left > .ribbon::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-color: transparent;
+    bottom: -5px;
+}
+.left .ribbon::before {
+    border-width: 0 7px 5px 0;
+    border-right-color: #c79e38;
+    left: 0;
+}
+.left .ribbon::after {
+    border-width: 0 0 5px 7px;
+    border-left-color: #c79e38;
+    right: 0;
+}
+.left .wreath {
+	width: 52px;
+	height: 59px;
+	background: url(../img/wreath.png);
+	position: absolute;
+    top: 72px;
+    left: 293px;
+}
+
+
+/*RIGHT BLOCK*/
+.right {
+	width: 540px;
+	height: 100%;
+	float: left;
+	background-color: #fff;
+	border-radius: 0 20px 20px 0;
+}
+.right > div {
+	padding: 52px 61px;
+}
+.right .text {
+	font-family: GothamP;
+	color: #575b66;
+    line-height: 24px;
+	word-spacing: -2px;
+}
+.right .text span {
+	font-family: GothamPM;
+	word-spacing: 0px;
+}
+/* payment */
+.right .payment div {
+	float: left;
+}
+.methods {
+	float: left;
+    margin: 0;
+    color: #c2c4cc;
+    text-transform: uppercase;
+}
+.right .payment {
+	height: 50px;
+    margin-top: 30px;
+
+}
+.right .payment p {
+	font-family: GothamPM;
+	font-size: 14px;
+	color: #c6c8cf;
+}
+.right .payment div.private {
+	width: 18px;
+	height: 18px;
+	background: url(../img/sprite.png) 0px -3px;
+	margin-left: 18px;
+    margin-top: -2px;
+}
+.right .payment div.private:hover {
+	cursor: pointer;
+	background-position: 0px -31px;
+}
+.right .payment div.visa {
+	width: 38px;
+	height: 12px;
+	background: url(../img/sprite.png) -62px -7px;
+	margin-left: 15px;
+    margin-top: 1px;
+}
+.right .payment div.visa:hover {
+	cursor: pointer;
+	background-position: -62px -34px;
+}
+.right .payment div.mastercard {
+	width: 43px;
+	height: 26px;
+	background: url(../img/sprite.png) -19px 0px;
+	margin-left: 16px;
+    margin-top: -6px;
+}
+.right .payment div.mastercard:hover {
+	cursor: pointer;
+	background-position: -19px -27px;
+}
+
+/*buy button*/
+.right .buy-btn {
+	margin-top: 28px;
+}
+.right .buy-btn a {
+	background-color: #aac65a;
+	color: #fff;
+	font-family: GothamP;
+	text-decoration: none;
+    border-radius: 27px;
+    padding: 18px 50px;
+}
+.right .buy-btn a:hover {
+	background-color: #97af53;
+}
+
+/*application*/
+.right .application {
+	margin-top: 51px;
+	font-family: GothamP;
+	color: #6d717a;
+    line-height: 23px;
+}
+.right .application a {
+	color: #77b0e1;
+}
+.right .application a:hover {
+    color: #91c0e8;
+}
+
+/*leave button*/
+.right .leave-btn {
+	margin-top: 17px;
+}
+.right .leave-btn a {
+	background-color: #fac746;
+	color: #876c27;
+	font-family: GothamP;
+	text-decoration: none;
+    border-radius: 27px;
+    padding: 14px 30px;
+}
+.right .leave-btn a:hover {
+	background-color: #d3aa42;
+}
+
+/*close*/
+.close {
+	position: absolute;
+    left: 905px;
+    top: 25px;
+    width: 27px;
+    height: 27px;
+    opacity: 1;
+}
+.close:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+.close::before {
+	position: absolute;
+	left: 13px;
+	content: '';
+	height: 27px;
+	width: 2px;
+	background-color: #c2c4cc;
+}
+.close::after {
+	position: absolute;
+	top: 13px;
+	content: '';
+	height: 2px;
+	width: 27px;
+	background-color: #c2c4cc;
+}
+.close {
+	transform: rotate(45deg);
+}
+
+
+
+
