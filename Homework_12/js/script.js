@@ -5,13 +5,16 @@ for (var i = 0; i <= 100; i++) {
 }
 console.log("Sum =",Sum);
 
+
 //factorial
 var number = +(prompt("Enter a number"));
 var factorial = 1;
-for (var i = 1; i <= number-1; i++) {
+
+for (var i = 1; i <= number-1; i++) 
 	factorial *= (i+1);
-}
+
 console.log("factorial for",number,"=" ,factorial);
+
 
 //Hayes sequence
 var num = +(prompt("Enter a number"));
