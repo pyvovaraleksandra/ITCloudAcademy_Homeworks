@@ -38,6 +38,6 @@ while (num != 1) {
 		vertex = num;
 }
 
-console.log("Sequence ", sequence);
+console.log("Sequence:", sequence);
 console.log("Steps:", count);
 console.log("Vertex:", vertex);
