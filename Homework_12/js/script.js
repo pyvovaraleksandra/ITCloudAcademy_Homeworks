@@ -19,20 +19,15 @@ console.log("factorial for",number,"=" ,factorial);
 //Hayes sequence
 var num = +(prompt("Enter a number"));
 var count = 0;
-// var old = 0;
 var sequence = "";
 var vertex = num;
 while (num != 1) {
 	count++;
 
 	if (num % 2 == 0) {
-		// old = num;
 		num /= 2;
-		// console.log (count + ") " + old + " / 2 = " + num);
 	} else {
-		// old = num;
 		num = num*3 + 1;
-		// console.log (count + ") " + old + " * 3 + 1 = " + num);
 	}
 
 	sequence += num.toString() + " ";
