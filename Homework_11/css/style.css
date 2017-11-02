@@ -1,0 +1,62 @@
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.section_1 {
+	width: 100%;
+	/*height: 100px;*/
+	background: url("../img/bg.png") center center no-repeat;
+	box-sizing: border-box;
+}
+.section_1 .top {
+	text-align: center;
+}
+.section_1 h1 {
+	font-family: GothamPB;
+	font-size: 60px;
+	color: #fff;
+	margin: 0;
+}
+.section_1 p {
+	font-family: GothamP;
+	font-size: 30px;
+	color: #fff;
+	margin-top: 10px;
+}
+.section_1 .unlim {
+	/* почему если ему задать float: right, то он начинает существовать отдельно от врапера, как-бы не входя в него*/
+	width: 458px;
+	margin-top: 128px;
+    margin-left: 590px;
+    padding-bottom: 490px;
+}
+.section_1 .unlim .first {
+	font-family: GothamPM;
+	font-size: 42px;
+	color: #b6f1ff;
+}
+.section_1 .unlim .second {
+	font-family: GothamP;
+	font-size: 30px;
+	color: #fff;
+}
+.section_1 .unlim .btn {
+	display: inline-block;
+	background-color: #ff1744;
+	border-radius: 5px;
+    box-shadow: 0px 8px 1px 0px #d50000;
+	padding: 20px 34px;
+}
+
+.section_1 .unlim .btn a {
+
+	font-family: GothamPBl;
+	font-size: 24px;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+
+
+
+}
